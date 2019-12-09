@@ -1,0 +1,188 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #141414;
+	display: block;
+}
+
+.topbox {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.pics {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	background-color: #0066B2;
+	align-items: center;
+	justify-content: center;
+}
+.titles{
+	content:url("images/titles.jpg");
+    filter: alpha(opacity=50);
+	
+}
+.reset {
+	height: 100%;
+	width: 20%;
+	display: flex; 
+	background-color: #FFFFFF;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+	transform:scale(0.93);
+}
+
+.playerbox {
+	height: 50%;
+	width: 100%;
+	display: block;
+}
+
+.row-white {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
+.contain-image {
+	max-height:100%;
+	max-width: 110%;
+	overflow: hidden;
+}
+
+.lewa{
+	content:url("images/lewa.jpg");	
+}
+
+.all-grey {filter: grayscale(100%);}
+
+.logo-contain {
+	max-height:50%;
+	max-width: 90%;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.center-horizontal {
+	justify-content: center;
+}
+
+.center-vertical {
+	align-items: center;
+}
+
+.contain-image2 {
+	max-height:75%;
+	max-width: 75%;
+}
+
+.box{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #DC052D;
+	}
+
+	.box2{
+	height: 100%;
+	width: calc(100%/5);
+	display: flex;
+	background-color: #FFFFFF;
+	}
+
+
+.row-red {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #DC052D;
+}
+
+img:hover {cursor: pointer;}
+.no-cursor:hover {cursor: default;}
+
+@media screen and (max-width: 800px) {
+	
+	body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+	}
+
+	.topbox {
+		height: 25%;
+		width: 100%;
+		display: flex;
+	}
+
+	.pics {
+		height: 100%;
+		width: calc(100%/3);
+		display: flex;
+		background-color: #0066B2;
+	}
+	
+	.titles{
+		content:url("images/champions.png");
+	}
+	
+	.reset {
+		height: 100%;
+		width: calc(100%/3);
+		display: flex; 
+		background-color: #FFFFFF;
+	}
+
+	.playerbox {
+		height: 75%;
+		width: 100%;
+		display: flex;
+	}
+
+	.row-white {
+		height: 100%;
+		width: 50%;
+		display: block;
+		background-color: #FFFFFF;
+	}
+	
+	.contain-image {
+	max-height:100%;
+	max-width: 100%;
+	overflow: hidden;
+	}
+
+	.lewa{
+		content:url("images/lewa.png");
+	}
+	
+	.box{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #DC052D;
+	}
+
+	.box2{
+		height: calc(100%/5);
+		width: 100%;
+		display: flex;
+		background-color: #FFFFFF;
+	}
+
+	
+	.row-red {
+		height: 100%;
+		width: 50%;
+		display: block;
+		background-color: #DC052D;
+	}
+
+	
