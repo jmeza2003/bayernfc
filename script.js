@@ -45,7 +45,7 @@ function changePicture6(elem){
 }
 
 function changePicture7(elem){
-	elem.src="images/Robben.png";
+	elem.src="images/robben.png";
 }
 
 function changePicture8(elem){
