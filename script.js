@@ -1,5 +1,15 @@
 var n = document.getElementById("champ");
 var o = document.getElementById("robert");
+var P1 = document.getElementById("alaba");
+var P2 = document.getElementById("gnabry");
+var P3 = document.getElementById("goretzka");
+var P4 = document.getElementById("hummels");
+var P5 = document.getElementById("james");
+var P6 = document.getElementById("jerome");
+var P7 = document.getElementById("kimmich");
+var P8 = document.getElementById("robben");
+var P9 = document.getElementById("muller");
+var P = document.getElementById("neuer");
 
 function resetImage() {
   document.getElementById("alaba").src = "images/alaba.png";
@@ -16,44 +26,18 @@ function resetImage() {
   o.classList.add("all-grey");
 }
 
-function changePicture(elem){
-	elem.src="images/fifa.png";
-}
-
-function changePicture1(elem){
-	elem.src="images/fifa1.png";
-}
-
-function changePicture2(elem){
-	elem.src="images/fifa2.png";
-}
-
-function changePicture3(elem){
-	elem.src="images/fifa3.png";
-}
-
-function changePicture4(elem){
-	elem.src="images/fifa4.png";
-}
-
-function changePicture5(elem){
-	elem.src="images/fifa5.png";
-}
-
-function changePicture6(elem){
-	elem.src="images/fifa7.png";
-}
-
-function changePicture7(elem){
-	elem.src="images/Robben.png";
-}
-
-function changePicture8(elem){
-	elem.src="images/fifa9.png";
-}
-
-function changePicture9(elem){
-	elem.src="images/neuer1.png";
+function changePicture(){
+ P1.remove.src = "images/alaba.png";
+ P1.add.src="images/fifa1.png";
+ P2.remove.src = "images/gnabry.jpg";
+ P3.remove.src = "images/goretzka.png";
+ P4.remove.src = "images/hummels.jpg";
+ P5.remove.src = "images/james.png";
+ P6.remove.src = "images/jerome.png";
+ P7.remove.src = "images/kimmich.png";
+ P8.remove.src = "images/robben.jpg";
+ P9.remove.src = "images/muller.png";
+ P.remove.src = "images/neuer.png";.
 }
 
 
